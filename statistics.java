@@ -19,7 +19,6 @@ public class statistics{
         }
         return total;
     }
-    // calcule le total des frais payés avant une date donnée
     public static double getTotalPaidStudent(Etudiant etudiant, List<paiements> paiements , Isntant instant) {
         double total = 0;
         for (Paiement p : paiements) {
